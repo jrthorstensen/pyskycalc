@@ -1,0 +1,65 @@
+shattuck	Shattuck Obs.,Dartmouth	1405403, -4399283, 4384581	America/New_York	EST	EDT	0.	0.
+mdm	Kitt Peak [MDM Obs]	-1996199., -5037542., 3356753.	America/Phoenix	MST	MST	0.	700.
+kpno	Kitt Peak [KPNO]	-1994503,-5037539,3358105	America/Phoenix	MST	MST	0.	700.
+gemn	Mauna Kea [Gemini]	-5464284,-2493784,2150786	Pacific/Honolulu	HST	HST	4213	4213
+haleakala	Haleakala	-5462039,-2412577,2243041	Pacific/Honolulu	HST	HST	3054	3054
+irtf	Mauna Kea [IRTF]	-5464291,-2493447,2151023	Pacific/Honolulu	HST	HST	4200	4200
+jcmt	Mauna Kea [JCMT]	-5464589,-2493006,2150652	Pacific/Honolulu	HST	HST	4200	4200
+keck	Mauna Kea [Keck]	-5464488,-2492807,2151240	Pacific/Honolulu	HST	HST	4200	4200
+gems	Gemini South	1820193,-5208343,-3194843	America/Santiago	CLT	CLST	-500.	2725.	
+ALMA	ALMA	2225015,-5440016,-2481631	America/Santiago	CLT	CLST	-500.	0.	
+aao	Anglo-Australian Obs	-4680889,2805218,-3292788	Australia/Sydney	AEST	AEDT	0.	0.
+apo	Apache Point Obs.	-1463969,-5166673,3434986	America/Denver	MST	MDT	0.	0.
+cfht	Mauna Kea [CFHT]	-5464302,-2493490,2151085	Pacific/Honolulu	HST	HST	4200	4200
+catalina	Catalina Observatory	-1908565,-5042439,3400871	America/Phoenix	MST	MST	0.	700.
+pachon	Cerro Pachon	1820193,-5208343,-3194843	America/Santiago	CLT	CLST	-500.	2725.	
+paranal	Cerro Paranal	1946618,-5467645,-2642488	America/Santiago	CLT	CLST	-500.	2635.	
+ctio	Cerro Tololo	1814304,-5214366,-3187341	America/Santiago	CLT	CLST	-500.	2215.	
+gbt	Green Bank Telescope	882598,-4924863,3943713	America/New_York	EST	EDT	0.	0.
+palomar	Palomar Mtn [Hale Tel.]	-2410347,-4758667,3487943	America/Los_Angeles	PST	PDT	0.	0.
+jvla	Jansky Very Large Array	-1601184,-5041990,3554875	America/Denver	MST	MDT	4200	4200
+bao	Beijing XingLong Obs.	-2252166,4312579,4111962	Asia/Shanghai	CST	CST	0	0
+bmo 	Black Moshannon Obs	1003147,-4721461,4156337	America/New_York	EST	EDT	0	0	
+chara	CHARA	-2484229,-4660044,3567868	America/Los_Angeles	PST	PDT	0	0	
+dct	Discovery Channel Tel.	-1917000,-4885955,3615926	America/Phoenix	MST	MST	0	0	
+dao	Dominion Astrophysical Obs.	-2330985,-3532887,4755665	America/Vancouver	PST	PDT	0	0
+lasilla	ESO, La Silla	1838555,-5258914,-3099899	America/Santiago	CLT	CLST	-500	2347	
+lbt	Large Binocular Tel.	-1827016,-5054821,3427725	America/Phoenix	MST	MST	1000.	1000.
+lco	Las Campanas Obs.	1845655,-5270856,-3075331	America/Santiago	CLT	CLST	-500.	2282
+lick	Lick Obs.	-2663566,-4323363,3848538	America/Los_Angeles	PST	PDT	0.	400.	
+lowell	Lowell Obs.	-1918330,-4861253,3647910	America/Phoenix	MST	MDT	0.	0.
+mro	Manastash Ridge Obs.	-2228982,-3749888,4639060	America/Los_Angeles	PST	PDT	0	0	
+mcdonald	McDonald Obs.	-1330755,-5328783,3235697	America/Chicago	CST	CDT	0	0	
+ekar	Mt. Ekar 182 cm Tel.	4360771,893641,455455E5	Europe/Rome	CET	CEST	0	0	
+stromlo	Mt. Stromlo Obs	-4467467,2681743,-3667394	Australia/Sydney	AEST	AEDT	0	0	
+mmt	Multiple Mirror Tel.	-1937367,-5077452,3332444	America/Phoenix	MST	MDT	0	400	
+#nov	National Obs Venezuela	2067324,-5958862,968767	America/Caracas	V	0	0	
+#Noto	4934492,1321169,3806399	
+#spm	San Pedro Martir	-2354954,-4940160,3270124	America/Santa_Isabel	PST	PDT	0	0	
+#lapalma	Roque de los Muchachos	5327449,-1718666,3051567	Atlantic/Canary	C	2326	2326
+#saao	South African Astr. Obs.	5041506,1916177,-3396664	Africa/Johannesburg	SA	200	200
+#salt	Southern African Large Tel.	5041506,1916177,-3396664	Africa/Johannesburg	SA	200	200
+#SRT	4865168,791921,4035121	
+#Subaru Telescope	-5464468,-2493054,2150944	
+#Vainu Bappu Observatory	1206621,6108765,1379891	
+#Whipple	-1936769,-5077879,3331595	
+#Whipple Observatory	-1936769,-5077879,3331595	
+#flwo	Fred L. Whipple Obs.	-1936769,-5077879,3331595	America/Phoenix	MST	MST	0	0
+#greenwich	3980609,  -102,4966861	
+#medicina	4461340,919588,4449530	
+#mso	-4467467,2681743,-3667394	
+#mtbigelow	-1908565,-5042439,3400871	
+#mwo	-2484229,-4660044,3567868	
+#noto	4934492,1321169,3806399	
+#ohp	4578423,458063,4403011	
+#paranal	1946618,-5467645,-2642488	
+#salt	5041506,1916177,-3396664	
+#sirene	4575208,439490,4408856	
+#spm	-2354954,-4940160,3270124	
+#srt	4865168,791921,4035121	
+#sso	-4680820,2805720,-3292432	
+#tona	-872146,-5968218,2066780	
+#tug	4413556,2582749,3803290	
+#ukirt	-5464374,-2493677,2150638	
+#vbo	1206621,6108765,1379891	
+#vla	-1601184,-5041990,3554875	

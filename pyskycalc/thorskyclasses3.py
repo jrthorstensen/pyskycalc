@@ -17,16 +17,17 @@ import pytz
 import time as ttime  
 import dateutil.parser
 
-from thorskyutil import altazparang,lpsidereal,lpmoon,lpsun,accumoon,min_max_alt,phase_descr
-from thorskyutil import ha_alt, jd_sun_alt, jd_moon_alt, local_midnight_Time, hrs_up
-from thorskyutil import ztwilight, lunskybright, true_airmass
-from thorskyutil import currentgeocentframe, currentFK5frame, thorconsts
-from thorskyutil import precessmatrix, cel2localmatrix, cel2xyz
-from thorskyutil import getbrightest, skyproject, angle_between
-from thorskyutil import time_rounded_to_minute
+from .thorskyutil import altazparang,lpsidereal,lpmoon,lpsun,accumoon,min_max_alt,phase_descr
+from .thorskyutil import ha_alt, jd_sun_alt, jd_moon_alt, local_midnight_Time, hrs_up
+from .thorskyutil import ztwilight, lunskybright, true_airmass
+from .thorskyutil import currentgeocentframe, currentFK5frame, thorconsts
+from .thorskyutil import precessmatrix, cel2localmatrix, cel2xyz
+from .thorskyutil import getbrightest, skyproject, angle_between
+from .thorskyutil import time_rounded_to_minute
 
 # import matplotlib.pyplot as plt   # for tests
 import sys  # for tests
+import os
 
 class obs_site :  # shell for now, MDM only.
     def __init__(self, name = "MDM Observatory [Kitt Peak]", loc = (-1996199., -5037542., 3356753.),
@@ -86,7 +87,9 @@ class obs_site :  # shell for now, MDM only.
 #        print "self.risealt = ",self.risealt
 
 def get_sites() :  # reads from a file of site names.
-    inf = open("observatories_rev.dat")
+    file_path = os.path.abspath(__file__)
+    dir_path = os.path.dirname(file_path)
+    inf = open(os.path.join(dir_path,"data","observatories_rev.dat"))
     sitedict = {}
     for l in inf :
         if l[0] != '#' :  # allow commenting out of lines
@@ -924,7 +927,10 @@ if __name__ == "__main__" :
     #alt2 = np.arcsin(topo2[2]) * thorconsts.DEG_IN_RADIAN
     #print "alt2  az2",alt2,az2
 
-    (bright2000, brightmags, brightcolors, brightnames) = getbrightest("cartesian_bright.dat")
+    file_path = os.path.abspath(__file__)
+    dir_path = os.path.dirname(file_path)
+
+    (bright2000, brightmags, brightcolors, brightnames) = getbrightest(os.join(dir_path,"data","cartesian_bright.dat"))
  
     (projectedx,projectedy) = skyproject(o.icrs2topoxyz,bright2000)
 

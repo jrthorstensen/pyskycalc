@@ -1,6 +1,6 @@
-from . import thorskyclasses3
-from .thorskyclasses3 import *
+from . import classes
+from .classes import *
 
 
-from . import thorskyutil
-from .thorskyutil import *
+from . import utils
+from .utils import *

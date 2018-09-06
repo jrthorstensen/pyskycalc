@@ -1167,8 +1167,12 @@ def lunskybright(alpha,rho,kzen,altmoon,alt, moondist, sunalt) :
      else : return 99.
 
 def load_brightest_default():
-    file_path = os.path.abspath(__file__)
-    dir_path = os.path.dirname(file_path)
+    """
+        Loads Default Brightest
+    """
+    file_path = os.path.abspath(__file__) #Looking for package file location
+    dir_path = os.path.dirname(file_path) #Getting the directory
+    #Returning the objects from getbrightest function
     return getbrightest(os.path.join(dir_path,"data","cartesian_bright.dat"))
 
 if __name__ == "__main__" :

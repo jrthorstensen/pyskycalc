@@ -87,8 +87,9 @@ class ObsSite :  # shell for now, MDM only.
 #        print "self.risealt = ",self.risealt
 
 def get_sites() :  # reads from a file of site names.
-    file_path = os.path.abspath(__file__)
-    dir_path = os.path.dirname(file_path)
+    #Reading the observatories data
+    file_path = os.path.abspath(__file__) #Looking the file path
+    dir_path = os.path.dirname(file_path) #Getting directory
     inf = open(os.path.join(dir_path,"data","observatories_rev.dat"))
     sitedict = {}
     for l in inf :
@@ -927,9 +928,10 @@ if __name__ == "__main__" :
     #alt2 = np.arcsin(topo2[2]) * thorconsts.DEG_IN_RADIAN
     #print "alt2  az2",alt2,az2
 
-    file_path = os.path.abspath(__file__)
-    dir_path = os.path.dirname(file_path)
+    file_path = os.path.abspath(__file__) #Looking for where the package file is
+    dir_path = os.path.dirname(file_path) #Getting directory
 
+    # Reading brightness from the .dat file inside the package
     (bright2000, brightmags, brightcolors, brightnames) = getbrightest(os.path.join(dir_path,"data","cartesian_bright.dat"))
 
     (projectedx,projectedy) = skyproject(o.icrs2topoxyz,bright2000)

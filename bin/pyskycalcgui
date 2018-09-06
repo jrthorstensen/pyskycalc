@@ -19,9 +19,15 @@
 from datetime import datetime, timedelta
 from pyskycalc import *
 import numpy as np
-from tkinter import *
-from tkinter.filedialog import askopenfilename
-from tkinter.font import nametofont
+try:
+    from tkinter import *
+    from tkinter.filedialog import askopenfilename
+    from tkinter.font import nametofont
+except ImportError:
+    from Tkinter import *
+    from tkFileDialog import askopenfilename
+    from tkFont import nametofont
+
 from copy import deepcopy
 from time import sleep   # for waiting when needed
 #import threading
@@ -1931,8 +1937,10 @@ class ScrolledText(Frame) :
 # to reuse, attach an instance to other guis
 #############################################
 
-from tkinter import *                          # get widget classes
-from tkinter import messagebox
+try:
+    from tkinter import messagebox
+except:
+    from tkMessageBox import * 
 #from tkMessageBox import asktokcancel           # get canned std dialog
 #from tkMessageBox import asktokcancel           # get canned std dialog
 

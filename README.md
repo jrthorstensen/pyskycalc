@@ -1,8 +1,11 @@
 # pyskycalc
 
-# Deprecated.
+# Deprecated -- see thorsky package 
 
-Please look for "thorsky" instead, which is properly packaged, much easier to install, has much better documentation, and other improvements.  
+Please go to  https://github.com/jrthorstensen/thorsky instead, in which an updated and better-documented version of this software is packaged properly for easy installation. 
+
+*************
+This is the old description, mostly valid: 
 
 Time-and-the-sky routines for astronomers, built mostly on astropy and including a GUI interface.
 
